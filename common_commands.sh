@@ -19,7 +19,6 @@ alias zrc="code ~/.zshrc"
 # Open toolshed in vscode
 alias mts="code $HOME/dev/toolshed"
 
-
 #### GIT ####
 alias cb="git rev-parse --abbrev-ref HEAD"
 
@@ -28,6 +27,9 @@ alias cb="git rev-parse --abbrev-ref HEAD"
 alias myprs="gh pr list --author '@me' -w"
 # Open the PR based on the current branch
 alias thispr="git rev-parse --abbrev-ref HEAD | xargs gh pr view --web"
+
+#### RUBY ####
+alias be="bundle exec"
 
 ### ARCHWAY ###
 
