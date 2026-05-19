@@ -9,6 +9,7 @@ brew "postgresql@14", restart_service: true, link: true
 brew "redis", restart_service: true
 brew "ruby-install"
 brew "tldr"
+brew "yt-dlp"
 
 cask "iterm2"
 cask "1password"
